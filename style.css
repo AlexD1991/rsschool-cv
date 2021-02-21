@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Alegreya Bold Italic'), local('Alegreya-BoldItalic'), url("assets/fonts/Alegreya-BoldItalic.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alegreya Regular'), local('Alegreya-Regular'), url("assets/fonts/Alegreya-Regular.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Alegreya Bold'), local('Alegreya-Bold'), url("assets/fonts/Alegreya-Bold.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Alegreya ExtraBold'), local('Alegreya-ExtraBold'), url("assets/fonts/Alegreya-ExtraBold.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) 1;
+}
+
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrap {
+    max-width: 1024px;
+    min-width: 700px;
+    margin: 20px auto;
+    -webkit-box-shadow: 10px 10px 35px -5px rgba(166,161,166,1);
+    -moz-box-shadow: 10px 10px 35px -5px rgba(166,161,166,1);
+    box-shadow: 10px 10px 35px -5px rgba(166,161,166,1);
+}
+
+.header {
+    margin: 10px auto;
+    text-align: center;
+    border-bottom: 1px solid;
+    border-image: var(--border-image);
+}
+
+.header h1 {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    display: block;
+    margin: 0 0 15px 0;
+}
+
+.header p {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    display:inline-block;
+    margin: 15px auto 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.aside {
+    margin: 20px;
+}
+
+.aside p {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.aside strong{
+    font-weight: 700;
+}
+
+.section {
+    margin: 20px;
+}
+
+.section h2 {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.section p, a {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.section p strong{
+    font-family: "Alegreya", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid;
+    border-image: var(--border-image);
+}
+
+.footer address {
+    display: inline-block;
+    margin: 20px 20px;
+}
+
+.footer a,i {
+    text-decoration: none;
+    color: black;
+    font-family: "Alegreya", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.aside img {
+    border-radius: 30%;
+    margin: 0 0 20px 0;
+}
+
+.line {
+    display: inline-block;
+    margin: 10px;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
