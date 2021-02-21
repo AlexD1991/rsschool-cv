@@ -113,6 +113,14 @@ body {
     font-family: "Alegreya", sans-serif;
     font-weight: 700;
     font-style: italic;
+    font-size: 25px;
+    line-height: 2;
+}
+
+.section h3 {
+    font-family: "Alegreya", sans-serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 22px;
     line-height: 1.5;
 }
