@@ -1,5 +1,7 @@
 # Curriculum Vitae
 
+![photo](profile_photo.png)
+
 Common information ||
 :---| :---
 Name | Aleksey Dobrovolsky
