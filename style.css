@@ -139,6 +139,10 @@ body {
     line-height: 1.5;
 }
 
+.summary h3 {
+    display: none;
+}
+
 .footer {
     text-align: center;
     border-top: 1px solid;
