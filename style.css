@@ -125,14 +125,14 @@ body {
     line-height: 1.5;
 }
 
-.section p, a {
+.section p, a, li {
     font-family: "Alegreya", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.5;
 }
 
-.section p strong{
+.section li strong{
     font-family: "Alegreya", sans-serif;
     font-weight: 700;
     font-size: 20px;
